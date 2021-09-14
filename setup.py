@@ -232,7 +232,7 @@ class BuildBinaryGraphs(build.build):
     ]
     for binary_graph in binary_graphs:
       sys.stderr.write('generating binarypb: %s\n' %
-                       os.path.join('mediapipe/modules/', binary_graph))
+                       os.path.join('mediapipe/graph/', binary_graph))
       self._generate_binary_graph(binary_graph)
 
   def _generate_binary_graph(self, graph_path):
