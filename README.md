@@ -8,10 +8,10 @@ nav_order: 1
 
 To pull new hotness from the public repo:
 
-cd private-repo
-git remote add public https://github.com/exampleuser/public-repo.git
-git pull public master # Creates a merge commit
-git push origin master
+cd private-repo </br>
+git remote add public https://github.com/exampleuser/public-repo.git </br>
+git pull public master # Creates a merge commit </br>
+git push origin master </br>
 
 
 --------------------------------------------------------------------------------
