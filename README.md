@@ -4,6 +4,20 @@ title: Home
 nav_order: 1
 ---
 
+## Updating the repo
+
+To pull new hotness from the public repo:
+
+cd private-repo
+git remote add public https://github.com/exampleuser/public-repo.git
+git pull public master # Creates a merge commit
+git push origin master
+
+
+
+
+
+
 ![MediaPipe](docs/images/mediapipe_small.png)
 
 --------------------------------------------------------------------------------
